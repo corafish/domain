@@ -1,0 +1,258 @@
+@font-face {
+  font-family: "TT2020";
+  src: url(TT2020Base-Regular.ttf)
+}
+
+@font-face {
+  font-family: "TT2020Bold";
+  src: url(TT2020StyleE-Regular.ttf)
+}
+
+:root {
+    --body-font: "TT2020", "Courier Prime", monospace;
+    --body-font-bold: "TT2020Bold", "Courier Prime", monospace;
+    --color-purple: rgb(147, 114, 218);
+    --color-blue: rgb(40, 174, 215);
+    --color-green: rgb(47, 198, 163);
+    --color-yellow: rgb(196, 193, 39);
+    --color-orange: rgb(255, 123, 61);
+    --color-pink: rgb(240, 81, 121);
+    --color-brown: rgb(209, 167, 143);
+    --custom-box-brown: rgba(209, 167, 143, 0.25);
+    --custom-box-blue: rgba(40, 174, 215, 0.25);
+    --custom-box-white: rgba(255, 255, 255, 0.75);
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: 1.15rem;
+    background-color: #e0c6ae;
+    background-image: url(concrete-wall.png), url("mag-white-txtbleed2.png");
+}
+
+h1, .h1 {
+    font-family: var(--body-font-bold);
+    text-transform: lowercase;
+    font-size: 4rem;
+}
+
+h2, .h2 {
+    font-family: var(--body-font-bold);
+    text-transform: lowercase;
+    font-size: 2rem;
+}
+
+h3, .h3 {
+    font-family: var(--body-font-bold);
+    text-transform: lowercase;
+    font-size: 1.6rem;
+}
+
+h4, .h4 {
+    font-family: var(--body-font-bold);
+    text-transform: lowercase;
+    font-size: 1.3rem;
+}
+
+.fw-bold {
+    font-family: var(--body-font-bold);
+}
+
+.tiny-text {
+    font-family: "Courier Prime", monospace;
+    font-size: 0.8rem;
+}
+
+.tiny-icon {
+    font-size: 0.6rem;
+}
+
+.fw-bold {
+    font-family: var(--body-font-bold);
+}
+
+.lead-bold {
+    font-family: var(--body-font-bold);
+    color: var(--color-pink);
+}
+
+.font-pink {
+    color: var(--color-pink);
+}
+
+.font-orange {
+    color: var(--color-orange);
+}
+
+.font-green {
+    color: var(--color-green);
+}
+
+.font-blue {
+    color: var(--color-blue);
+}
+
+.font-purple {
+    color: var(--color-purple);
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 1px black;
+}
+
+.nav-link {
+    font-size: 1.15rem;
+}
+
+a {
+    color: rgb(32, 147, 182);
+}
+
+a:hover {
+    color: var(--color-orange);
+}
+
+.btn-garden {
+    border: 1px solid rgb(64, 102, 121);
+    background-image: linear-gradient(120deg, rgb(132, 250, 176) 0%, rgb(143, 211, 244) 100%);
+    color: black;
+}
+
+.btn-garden:hover {
+    border: 1px solid rgb(64, 102, 121);
+    background-image: linear-gradient(120deg, rgb(143, 211, 244) 0%, rgb(132, 250, 176) 100%);
+    color: black;
+}
+
+.btn-colorstcg {
+    border: 1px solid rgb(184, 39, 80);
+    background-image: linear-gradient(120deg, rgb(255, 199, 150) 0%, rgb(255, 107, 149) 100%);
+    color: black;
+}
+
+.btn-colorstcg:hover {
+    border: 1px solid rgb(184, 39, 80);
+    background-image: linear-gradient(120deg, rgb(255, 107, 149) 0%, rgb(255, 199, 150) 100%);
+    color: black;
+}
+
+.btn-blog {
+    border: 1px solid rgb(152, 83, 209);
+    background-image: linear-gradient(120deg, rgb(251, 194, 235) 0%, rgb(150, 183, 241) 100%);
+    color: black;
+}
+
+.btn-blog:hover {
+    border: 1px solid rgb(152, 83, 209);
+    background-image: linear-gradient(120deg, rgb(150, 183, 241) 0%, rgb(251, 194, 235) 100%);;
+    color: black;
+}
+
+.btn-heroes {
+    border: 1px solid rgb(197, 95, 0);
+    background-image: linear-gradient(120deg, rgb(246, 211, 101) 0%, rgb(253, 152, 124) 100%);
+    color: black;
+}
+
+.btn-heroes:hover {
+    border: 1px solid rgb(194, 42, 0);
+    background-image: linear-gradient(120deg, rgb(253, 152, 124) 0%, rgb(246, 211, 101) 100%);;
+    color: black;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: var(--color-green);
+  border: 1px solid black;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+#btn-back-to-top:hover {
+  background-color: var(--color-pink);
+}
+
+hr {
+    color: black;
+    opacity: 1;
+    border-top: 1px solid hsl(22, 42%, 69%);
+}
+
+.hr-purple {
+    color: transparent;
+    border-top: 3px solid var(--color-purple);
+}
+
+.hr-blue {
+    color: transparent;
+    border-top: 3px solid var(--color-blue);
+}
+
+.hr-green {
+    color: transparent;
+    border-top: 3px solid var(--color-green);
+}
+
+.hr-yellow {
+    color: transparent;
+    border-top: 3px solid var(--color-yellow);
+}
+
+.hr-orange {
+    color: transparent;
+    border-top: 3px solid var(--color-orange);
+}
+
+.hr-pink {
+    color: transparent;
+    border-top: 3px solid var(--color-pink);
+}
+
+.bg-orange {
+    background-color: var(--color-orange);
+}
+
+.bg-green {
+    background-color: var(--color-green);
+}
+
+.bg-purple {
+    background-color: var(--color-purple);
+}
+
+.bg-blue {
+    background-color: var(--color-blue);
+}
+
+.bg-pink {
+    background-color: var(--color-pink);
+}
+
+.bg-brown {
+    background-color: var(--color-brown);
+}
+
+.custom-box {
+    background-color: var(--custom-box-brown);
+    border: 1px solid var(--color-brown);
+}
+
+.sticker::before {
+    background-image: url('Pi7_mia_49054a_full.webp');
+    display: block;
+    content: " ";
+    position: absolute;
+    height: 225px;
+    width: 225px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20px;
+    left: 60%;
+}
+
+.w-10 {
+    width: 10%;
+}
