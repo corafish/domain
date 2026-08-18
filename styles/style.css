@@ -84,6 +84,10 @@ h4, .h4 {
     color: var(--color-orange);
 }
 
+.font-yellow {
+    color: var(--color-yellow);
+}
+
 .font-green {
     color: var(--color-green);
 }
